@@ -18,8 +18,11 @@ const port = process.env.PORT || 4000;
 const prisma = new client_1.PrismaClient();
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
+        app_1.default.get('/', (req, res) => {
+            res.send('Hello World!');
+        });
         app_1.default.listen(port, () => {
-            console.log(`server is running on port ${port}`);
+            console.log(`server is running on port http://localhost:${port}`);
         });
     });
 }
