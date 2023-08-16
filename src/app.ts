@@ -15,4 +15,7 @@ app.use("/api/v1/user",UserRoutes)
 app.use("/api/v1/category",CategoryRoutes)
 app.use("/api/v1/post",PostRoutes)
 
+
+  
+
 export default app;
