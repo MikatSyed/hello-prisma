@@ -1,6 +1,5 @@
 import express,{Application} from 'express';
 import cors from 'cors'
-import { userInfo } from 'os';
 import { UserRoutes } from './modules/user/user.route';
 import { CategoryRoutes } from './modules/category/category.route';
 import { PostRoutes } from './modules/post/post.route';
